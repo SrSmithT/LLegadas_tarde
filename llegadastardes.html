@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Registro llegadas tarde</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="img/png" href="cropped-escudo-2-192x192.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <header>
+            <ul class="navbar__ul">
+                <li>
+                    <div class="pagina-iemab">
+                        <ion-icon name="school-outline"></ion-icon>
+                        <a href="https://www.iemab.edu.co/" target="_blank">Pagina IEMAB</a>
+                    </div>
+                </li>
+                <img class="logo" src="MAESTRO-ARENAS-BETANCUR.png" alt="1">
+                <li>
+                    <div class="volver-inicio">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <a href="index.html">Inicio</a>
+                    </div>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <section class="titulo-llegadas-tarde">
+        <div class="titulo-tardes">
+            <h1>Registro de llegadas tardes</h1>
+        </div>
+    </section>
+    <section class="section-forms">
+        <div class="inputs">
+            <form class="form-llegadas-tardes" method="post" action="/guardar_tarde">
+                <div class="ingresa-llegada">
+                    <h2>Ingresa los datos</h2>
+                </div>
+                <div class="imputbox">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <input class="tiki" id="fecha_tarde" type="date" required>
+                    <label for="fecha_tarde"><b>Fecha</b></label>
+                </div>
+                <div class="imputbox">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input class="tiki" id="id_estudiante" type="number" required>
+                    <label for="id_estudiante"><b>Id del estudiante</b></label>
+                </div>
+                <div class="imputbox">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <input class="tiki" id="hora_llegada_tarde" type="time" required>
+                    <label for="hora_llegada_tarde"><b>Hora de llegada</b></label>
+                </div>
+                <div class="submit">
+                    <ion-icon name="save-outline"></ion-icon>
+                    <input type="submit" value="Guardar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="lista">
+            <ul>
+                <li><img src="MAESTRO-ARENAS-BETANCUR.png" alt="1"></li>
+                <li>
+                    <div class="ubication"> <ion-icon name="home-outline"></ion-icon> Calle 100 # 66–54</div>
+                </li>
+                <li>
+                    <div class="phone"><ion-icon name="call-outline"></ion-icon> 3024138783</div>
+                </li>
+                <li>
+                    <div class="email"><ion-icon name="mail-outline"></ion-icon> secretaria@iemab.edu.co</div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
