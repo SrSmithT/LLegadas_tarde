@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    font-family: 'poppins';
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar__ul {
+    display: flex;
+    list-style: none;
+    padding: 1em;
+    justify-content: space-between;
+    font-size: 1em;
+    background-color: #0378A6;
+    margin: 0;
+}
+
+.navbar__ul li {
+    border: 1px solid #000;
+    padding: 1em;
+    border-radius: 1em;
+    border-color: #fff;
+}
+
+.navbar__ul li:hover {
+    transform: translateY(10px);
+    transition-duration: .5s;
+}
+
+.logo {
+    height: 3.5em;
+    margin: 0;
+}
+
+.navbar__ul a {
+    color: #fff;
+}
+
+.registros {
+    list-style: none;
+}
+
+.pagina-iemab {
+    text-decoration: none;
+    color: #fff;
+}
+
+.volver-inicio {
+    color: #fff;
+}
+
+.titulo-bienvenida {
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.h1-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.section-forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.inputs {
+    width: 600px;
+    height: 450px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.ingresa-llegada h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+.tiki {
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.submit {
+    padding-top: 10px;
+}
+
+.submit input {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.eleccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 400px;
+}
+
+.elecciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 150px;
+    width: 700px;
+}
+
+.eleccion ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 1em;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 500px;
+
+}
+
+.eleccion li {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+.eleccion li a {
+    color: #fff;
+}
+
+.titulo-llegadas-tarde {
+    background-color: transparent;
+    color: #fff;
+}
+
+.titulo-tardes h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo-llegadas {
+    background-color: transparent;
+    color: #fff;
+}
+
+.titulo-llegadas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo-llegadas h1 {
+    font-weight: 400;
+}
+
+.section-forms-llegadas {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: 400;
+    font-size: 1.05em;
+    margin: 0;
+    padding: 20px;
+}
+
+.inputs-llegadas {
+    width: 600px;
+    height: 450px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer {
+    background-color: #0378A6;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+}
+
+body {
+    background: url(IMG_3150.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
