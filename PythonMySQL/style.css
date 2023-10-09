@@ -239,3 +239,30 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.akros {
+    background-color: transparent;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.akros b {
+    color: #fff;
+}
+
+.akros button {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    outline: none;
+    padding: 20px;
+    width: 300px;
+
+}
+
+.akros button:hover {
+    transform: translateY(10px);
+    transition-duration: .5s;
+}
